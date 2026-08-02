@@ -55,3 +55,17 @@ fruit.append('pear') #增加元素-末尾添加
 fruit.insert(1, 'grape') #增加元素-指定位置添加
 fruit.remove('banana') #删除元素-按值删除
 #待我抽支烟,有点困
+popped_fruit = fruit.pop() #弹出末尾元素
+print("操作后:", fruit) #['apple', 'grape', 'cherry']
+print("弹出的元素:", popped_fruit) #pear
+
+
+# 常用操作
+print("长度:", len(fruit)) #输出list长度: 3
+print("是否存在:", 'apple' in fruit) #判断元素是否存在: True
+fruit.sort() #排序
+print("排序后:", fruit) #['apple', 'cherry', 'grape', 'orange']
+
+# 列表推导式(Python特色)
+squares = [x**2 for x in range(1,6)] #生成1-5的平方数列表
+print("平方数列表:",)
