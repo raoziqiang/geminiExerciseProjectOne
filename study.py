@@ -69,3 +69,16 @@ print("排序后:", fruit) #['apple', 'cherry', 'grape', 'orange']
 # 列表推导式(Python特色)
 squares = [x**2 for x in range(1,6)] #生成1-5的平方数列表
 print("平方数列表:",)
+
+
+even_squares = [x for x in range(10) if x % 2 == 0] #生成1-10的偶数平方数列表
+print("偶数平方数列表:", even_squares) #输出: [0, 2, 4, 6, 8]
+evens = [x for x in range(10) if x % 2 == 0] #生成0-9的偶数列表
+print("0~9的偶数:", evens) #输出: [0, 2, 4, 6, 8]
+
+
+# ---------- 2. 元组 (tuple) ----------
+#元组:有序,不可变的集合,用()表示,元素之间用逗号分隔
+point = (3,5)   #二维坐标
+rgb = (255,128,0) #RGB颜色值
+print("\n坐标:", point,"颜色:", rgb) #输出: 坐标: (3, 5) 颜色: (255, 128, 0)
