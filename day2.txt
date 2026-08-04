@@ -1,0 +1,8 @@
+Q:列表推导式的特征
+Q:列表推导式的写作格式
+Q:列表推导式的意义(在哪些时候会经常用到)
+Q:列表推导式的C层优化是什么意思
+Q:列表推导式可以套用变量方法吗
+Q:列表推导式的"**"是什么意思{例:squares = [x**2 for x in range(1,6)],}   A：x的平方
+
+even_numbers = [number for number in range(10) if number % 2 == 0]中的number % 2 == 0    A：是判定number是不是偶数的意思
